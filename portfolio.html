@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Pet Station | Pet Necessities </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel = "icon" href = "images\logo2.png">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> </head>
+
+<body>
+	<div class ="header"> 
+	<div class = "container">
+		<div class = "navbar">
+		<div class = "logo">
+			<a href = "index.html"><img src = "images\logo.png" width = "300px"></a>
+	</div>
+	<nav>
+		<ul id = "MenuItems">
+			<li> <a href = "index.html"> Home </a></li>
+			<li> <a href = "products.html"> Products </a></li>
+			<li> <a href = "myaccount.html"> Account </a></li>
+			<li> <a href="portfolio.html"> Portfolio </a></li>
+		</ul>
+	</nav>
+	<a href = "cart.html"> <img src = "images\cart.png" width="30px" height="30px"> </a>
+	<img src = "images\menu.png" class = "menu-icon" onclick = "menutoggle()" width = "28px" height="28px">
+	</div> 
+</div>
+</div>
+
+<!-- PORTFOLIO: ABOUT ME -->
+<!-- <div class = "portfolio-container"> -->
+	<!-- <div class = "about_container"> -->
+<section class = "about">
+	<div class = "main">
+		<img src="images\me.jpg">
+		<div class = "about-text">
+			<h1> About Me </h1>
+				<h3> Name </h3>
+					<h4> Christine Camilo </h4>			
+				<h3> Age </h3>
+					<h4> 21 Years Old </h4>
+				<h3> Birthday </h3>
+					<h4> December 22, 1999 </h4>
+				<h3> Schools </h3>
+				<li> Pateros Catholic School </li>
+				<li> Sanston Academy </li>
+				<li> Centro Escolar University </li>
+		</div>	
+	</div>
+</section>
+</div>
+	 </div>
+	 	
+	 	<div class = "skills">
+	 		<h1> My Skills </h1>
+	 		
+	 			<h3> HTML </h3> <span class = "bar"> <span class = "html"> </span> </span>
+	 			
+	 			<h3> CSS </h3> <span class = "bar"> <span class = "css"> </span> </span>
+	 		
+	 			<h3> Java </h3> <span class = "bar"> <span class = "java"> </span> </span>
+	 		
+	 			<h3> Javascript </h3> <span class = "bar"> <span class = "javascript"> </span> </span>
+	 	
+	 	</div>
+
+	<!-- JS for Toggle Menu -->
+	<script> 
+		var MenuItems = document.getElementById("MenuItems");
+		MenuItems.style.maxHeight = "0px";
+		function menutoggle() {
+			if (MenuItems.style.maxHeight == "0px")
+				{
+				MenuItems.style.maxHeight = "200px";
+				}
+			else
+				{
+					MenuItems.style.maxHeight = "0px";
+				}
+		}
+
+	</script>
+
+</body>
+</html>
