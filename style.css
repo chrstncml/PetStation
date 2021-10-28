@@ -340,7 +340,7 @@ form a {
 }
 
 .about {
-	/*flex-wrap: wrap;*/
+	flex-wrap: wrap;
 	align-self: center;
 	width: 100%;
 	padding: 100px 0px;
@@ -360,12 +360,13 @@ form a {
 }
 
 .about-text h1 {
-	font-size: 30px;
+	font-size: 20px;
 }
 
-.about-text {
-	font-weight: bold;
+.about-text h3 {
+	font-size: 15px;
 }
+
 
 .main {
 	width: 100%;
@@ -403,12 +404,12 @@ form a {
 .bar span {
 	height: 20px;
 	float: left;
-	background: #006666;
+	background: #004c4c;
 }
 
 .html {
 	margin: 0;
-	width: 50%;
+	width: 55%;
 }
 
 .css {
@@ -427,7 +428,5 @@ form a {
 
 /*huhuhuhwalanakomaintindihan*/
 
-/*kayamoyanself */
-/*goselfkayamoyarn*/
 
-/*dsvnjksdmesotiredhuhusdfjnkwe*/
+/*goselfkayamoyan*/
